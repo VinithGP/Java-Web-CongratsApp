@@ -59,7 +59,7 @@
             <!-- DevOps Image -->
             <div class="image-container">
                 <img
-                    src="image/image.png"
+                    src="image/image.jpg"
                     alt="DevOps CI/CD"
                     class="devops-image">
             </div>
