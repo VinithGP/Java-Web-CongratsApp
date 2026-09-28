@@ -1,9 +1,10 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>DevOps CI/CD Project</title>
@@ -15,20 +16,27 @@
 
     <!-- Header -->
     <header>
+
         <div class="logo">
-            ☁️ DevOps CI/CD
+            <span class="cloud">CI</span>
+            DevOps CI/CD
         </div>
 
         <nav>
             <span>Build</span>
-            <span>→</span>
+            <span class="arrow">></span>
+
             <span>Test</span>
-            <span>→</span>
+            <span class="arrow">></span>
+
             <span>Deploy</span>
-            <span>→</span>
+            <span class="arrow">></span>
+
             <span>Success</span>
         </nav>
+
     </header>
+
 
     <!-- Main Content -->
     <main>
@@ -47,46 +55,85 @@
                 Version - 20
             </div>
 
+
             <!-- DevOps Image -->
-            <img
-                src="image/image.jpg"
-                alt="DevOps CI/CD"
-                class="devops-image"
-            >
+            <div class="image-container">
+                <img
+                    src="image/image.png"
+                    alt="DevOps CI/CD"
+                    class="devops-image">
+            </div>
+
 
             <!-- Pipeline -->
             <div class="pipeline">
 
                 <div class="step">
-                    <div class="icon">💻</div>
+
+                    <div class="icon code-icon">
+                        &lt;/&gt;
+                    </div>
+
                     <h3>Code</h3>
+
                 </div>
 
-                <div class="arrow">→</div>
+
+                <div class="arrow-large">
+                    >
+                </div>
+
 
                 <div class="step">
-                    <div class="icon">⚙️</div>
+
+                    <div class="icon build-icon">
+                        +
+                    </div>
+
                     <h3>Build</h3>
+
                 </div>
 
-                <div class="arrow">→</div>
+
+                <div class="arrow-large">
+                    >
+                </div>
+
 
                 <div class="step">
-                    <div class="icon">✅</div>
+
+                    <div class="icon test-icon">
+                        OK
+                    </div>
+
                     <h3>Test</h3>
+
                 </div>
 
-                <div class="arrow">→</div>
+
+                <div class="arrow-large">
+                    >
+                </div>
+
 
                 <div class="step">
-                    <div class="icon">🚀</div>
+
+                    <div class="icon deploy-icon">
+                        ^
+                    </div>
+
                     <h3>Deploy</h3>
+
                 </div>
 
             </div>
 
+
+            <!-- Footer -->
             <p class="footer-text">
-                AUTOMATE &nbsp; • &nbsp; INTEGRATE &nbsp; • &nbsp; DELIVER
+                AUTOMATE &nbsp;&nbsp; • &nbsp;&nbsp;
+                INTEGRATE &nbsp;&nbsp; • &nbsp;&nbsp;
+                DELIVER
             </p>
 
         </section>
@@ -94,5 +141,5 @@
     </main>
 
 </body>
+
 </html>
-```
