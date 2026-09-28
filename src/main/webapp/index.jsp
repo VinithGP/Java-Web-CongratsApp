@@ -130,11 +130,11 @@
 
 
             <!-- Footer -->
-            <p class="footer-text">
-                AUTOMATE &nbsp;&nbsp; • &nbsp;&nbsp;
-                INTEGRATE &nbsp;&nbsp; • &nbsp;&nbsp;
-                DELIVER
-            </p>
+           <p class="footer-text">
+    AUTOMATE &nbsp;&nbsp; &bull; &nbsp;&nbsp;
+    INTEGRATE &nbsp;&nbsp; &bull; &nbsp;&nbsp;
+    DELIVER
+</p>
 
         </section>
 
